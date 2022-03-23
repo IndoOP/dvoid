@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 370vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+}
+.logo{
+    font-size: 22px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    z-index: 99999;
+}
+.btn{
+    display: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    z-index: 9999;
+}
+nav ul li a:hover{
+    color: #ff0095;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+.col-1 h2{
+    font-size: 54px;
+}
+h2{
+    font-size: 54px;
+}
+.col-1 h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 300;
+    margin: 20px 0 10px;
+}
+h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 300;
+    margin: 20px 0 10px;
+}
+.col-1 p{
+    font-size: 16px;
+    font-weight: 300;
+}
+p{
+    font-size: 16px;
+    font-weight: 300;
+}
+button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: #ecbbff;
+    color: #5a386d;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+button .arrow{
+    display: none;
+}
+button:hover{
+    background-color: #5a386d;
+    color: #ecbbff;
+    justify-content: space-between;
+    width: auto;
+}
+button:hover > .arrow{
+    display: inline-block;
+}
+.col-2{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+.col-2 .homeimg{
+    position: absolute;
+    width: 80%;
+    margin-top: 60px;
+    z-index: 1;
+}
+.row:nth-child(3){
+    margin-top: 300px;
+}
+.post .col-1{
+    flex-basis: 50%;
+    transition: all 0.4s ease;
+}
+.post .col-2{
+    flex-basis: 50%;
+    transition: all 0.4s ease;
+}
+.tb{
+    position: relative;
+    width: 90%;
+}
+.post .col-1:hover{
+    flex-basis: 60%;
+}
+.post .col-2:hover{
+    flex-basis: 60%;
+}
+.contact{
+    justify-content: center;
+    width: 100%;
+}
+.contact form{
+    padding: 40px;
+    width: 100%;
+}
+.contact form label{
+    position: relative;
+    display: block;
+    padding: 20px;
+}
+.contact form label input, textarea{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #b89ece;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+.contact form label input:hover, textarea:hover{
+    background-color: #8f8f8f;
+}
+textarea{
+    height: 70px;
+}
+.contact form button{
+    padding: 10px 20px;
+}
+
+.footer{
+    position: absolute;
+    background-color: #000;
+    top: 360vh;
+    left: 0;
+    width: 100%;
+    color: #fff;
+}
+.footer .col-1 img{
+    width: 5%;
+}

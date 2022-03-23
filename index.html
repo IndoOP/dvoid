@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="media.css">
+    <title>D-Void</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo Staaliches">
+                D-Void
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#footer">Socials</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="btn"><i class="fa fa-bars" style="color: #000; cursor: pointer;"></i></div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>Who are we?</h2>
+                <h3>We are D-Void</h3>
+                <p>We are a community of GFX Designers and VFX Editors</p>
+                <button type="button">Explore <span class="arrow"> > </span></button>
+            </div>
+            <div class="col-2">
+                <img src="home.png" class="homeimg">
+            </div>
+        </div>
+        <div class="row featured" style="justify-content: center;" id="featured"> <h2 class="Staaliches">FEATURED</h2> </div>
+        <div class="row post">
+            <div class="col-1">
+                <img src="tb1.jpg" class="tb">
+                <p>By Indo</p>
+            </div>
+            <div class="col-1">
+                <img src="tb2.jpg" class="tb">
+                <p>By Indo</p>
+            </div>
+        </div>
+        <div class="row post">
+            <div class="col-1">
+                <img src="tb3.jpg" class="tb">
+                <p>By Indo</p>
+            </div>
+            <div class="col-1">
+                <img src="tb4.jpg" class="tb">
+                <p>By Indo</p>
+            </div>
+        </div>
+        <div class="row" style="justify-content: center; margin-top: 100px;" id="contact">
+            <h2 class="Staaliches">Contact Us</h2>
+        </div>
+        <div class="row contact">
+            <form action="https://formspree.io/f/myyopqqw" method="POST">
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                  </label>
+            
+                <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                  </label>
+              
+                <button type="submit">Send <span class="arrow"> > </span></button>
+              </form>
+        </div>
+
+
+
+        <div class="row footer" id="footer">
+            <div class="col-1" style="flex-basis: 50%; padding: 10px;">
+                <p> Copyright D-Void Community 2022 </p>
+            </div>
+            <div class="col-1" style="flex-basis: 50%; padding: 10px;">
+                <img src="instagram.png" class="instagram" style="filter: invert(100); cursor: pointer; margin-right: 30px;" onclick="window.open('https://instagram.com/ig.dvoid')">
+                <img src="discord.png" class="instagram" style="filter: invert(100); cursor: pointer; margin-right: 30px;" onclick="window.open('https://discord.gg/W6VK5QJZ4R')">
+                <img src="youtube.png" class="instagram" style="filter: invert(100); cursor: pointer; margin-right: 30px;" onclick="window.open('https://instagram.com/ig.dvoid')">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
